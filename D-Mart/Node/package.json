@@ -1,0 +1,34 @@
+{
+  "name": "d-mart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasu99099/D-Mart.git"
+  },
+  "author": "Vasu Bhimani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasu99099/D-Mart/issues"
+  },
+  "homepage": "https://github.com/vasu99099/D-Mart#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.344.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mime": "^3.0.0",
+    "mongoose": "^7.2.1",
+    "twilio": "^4.11.1"
+  }
+}

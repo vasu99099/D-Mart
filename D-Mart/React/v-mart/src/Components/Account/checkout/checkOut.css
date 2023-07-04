@@ -1,0 +1,14 @@
+.payment-option {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    color: lightgray;
+}
+
+.payment-option:before,
+.payment-option:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid lightgray;
+    margin: auto;
+}
