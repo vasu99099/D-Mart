@@ -1,6 +1,0 @@
-.banner-grow{
-    transition: all 0.2s ease-in-out;
-}
-.banner-grow:hover{
-    transform: scale(1.05);
-}
